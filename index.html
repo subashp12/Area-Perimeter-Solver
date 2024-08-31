@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensuration</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+</style>
+<body>
+    <h3>This app gives you the complete solution as answer.</h3>
+   <div class="container" id="Rectcontainer">
+    <h1>Rectanlge</h1>
+        <div id="calcArea">
+            <label class="LandI" for="length">Insert the length of the rectangle</label>
+            <input class="LandI" type='number' id="length" value="">
+            <label class="LandI" for="breadth">Insert the breadth of the rectangle</label>
+            <input class="LandI" type='number' id="breadth" value="">
+            <div class="buttonWrap">
+                <button class="calcButton" id="areaBtnRect">Area</button>
+                <button class="calcButton" id="periBtnRect">Perimeter</button>
+            </div>
+            <p id="showSolRect" class="showSolution">Solution appears here.</p>
+            
+        </div>
+   </div>
+   <div class="container" id="SQcontainer">
+    <h1>Square</h1>
+        <div id="calcArea">
+            <label class="LandI" for="length">Insert the length of the square</label>
+            <input class="LandI" type='number' id="lengthSQ" value="">
+            <div class="buttonWrap">
+                <button class="calcButton" id="areaBtnSQ">Area</button>
+                <button class="calcButton" id="periBtnSQ">Perimeter</button>
+            </div>
+            <p id="showSolSQ" class="showSolution">Solution appears here.</p>
+            
+        </div>
+   </div>
+<script src="javascript.js"></script>    
+</body>
+</html>
